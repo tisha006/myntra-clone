@@ -1,0 +1,179 @@
+#wishlistempty {
+    width: 100%;
+    margin: auto;
+    margin-top:15%;
+    padding-top:60px;
+    padding-bottom:60px;
+    margin-left:39%;
+    text-align: center;
+    background-color: white; 
+   /* border: 1px solid blue; */
+  }
+
+  body{
+    background-color:rgba(246, 220, 226, 0.617);
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+  
+  }
+  
+  #name
+  {
+    padding-left:17%;
+    font-size:30px;
+    color:rgb(14, 14, 54)
+  }
+
+  #wishlistempty > p {
+    color: grey;
+  }
+  #continue {
+    /* color: hotpink; */
+    border: 1px solid #55565a;
+    /* border-radius: 5px; */
+    background-color: #ed1446;
+    width: 60%;
+    height: 40px;
+    font-weight: 700;
+  
+  }
+  #continue a{
+    color:white ;
+  }
+  #wishlistAppend {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: auto;
+    grid-gap: 30px;
+
+    /* border: 1px solid red; */
+  }
+  #wishlistAppend > div {
+    text-align: center;
+    display: flex;
+    width:95%;
+background-color:white;
+    max-height:130%;
+    flex-direction: column;
+    justify-content: end;
+  }
+  #wishlistAppend > div > button {
+    width: 100%;
+    color: #ff3f6c;
+    height: 35px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid lightgrey;
+  }
+  #container{
+    /* border: 5px solid green; */
+    /* display: flex; */
+    /* justify-content: center; */
+    max-width:140%;
+    /* border:1px solid red; */
+
+  }
+  #innercontainer{
+    /* border: 5px solid rgb(0, 13, 128); */
+    width: 57%;
+  
+
+  }
+
+
+  #abc{
+    margin-left:-270px;
+  }
+
+   #wishlistAppend{ 
+    margin-left:170px;
+    /* margin-top: 10px; */
+    
+    max-width:120%;
+    /* border: 5px solid rgb(0, 13, 128); */
+  } 
+  #myWishlist{
+   font-size: 15px;
+   margin-top:25px; 
+   /* border: 5px solid rgb(0, 13, 128); */
+   
+   /* font-weight: 500; */
+  }
+
+
+
+
+  
+  #footbody{
+    background-color:  #FAFBFC;
+}
+#footerDiv{
+
+   width: 75%;
+   margin: auto;
+  
+}
+#mainbox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    padding-top:25px;
+    margin-top:40%;
+    justify-content: space-around;
+   
+}
+#footbody p,#para{
+    color: #B4B5BD;
+}
+#logo1{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+#logo1 a img{
+    width: 100%;
+   
+}
+.logo2 img{
+    width: 8%;
+    margin: 10px;
+}
+#content img{
+padding-top: 20px;
+padding-right: 15px;
+width: 18%;
+height: 18%;
+
+}
+.box1{
+margin-left:-120px
+}
+.box2{
+margin-left: -100px;
+}
+.box3{
+margin-left: -40px;
+}
+.box4 div{
+    display: flex;
+}
+#info{
+    color: #B4B5BD;
+}
+#contact{
+    color:  #5D75D2;
+}
+#rightsreserve{
+ text-align: end;
+}
+#cin{
+    text-align: end;
+}
+
+
+
+
+  

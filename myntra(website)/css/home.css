@@ -1,0 +1,38 @@
+
+body{
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: white;
+  
+}
+
+
+#dealOfDay{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    /* box-shadow: 0px 0px 10px 0px #000; */
+    gap:15px;
+  
+ }
+
+
+ .h4text{
+    text-transform: uppercase;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #9e4d0a;
+    letter-spacing: .15em;
+    font-size: 9rem;
+    color:#ff69b4;
+    
+    /* margin: 50px 0 50px 30px; */
+   
+    max-height: 5em;
+    /* font-weight: 650; */
+   
+   }
+.a
+{
+    width:10px;
+    height:10px;
+}

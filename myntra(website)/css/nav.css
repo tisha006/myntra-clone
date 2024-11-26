@@ -1,0 +1,264 @@
+body{
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    /* background-color:rgba(246, 220, 226, 0.617); */
+  
+}
+
+/* navbar */
+
+
+a.nav-link
+{
+    color:rgba(40, 44, 63, 0.779);
+   margin-left:6px;
+   padding-left:-25px;
+   font-size: 10px;
+   text-transform: uppercase;
+
+}
+a.nav-link:hover
+{
+    color:hotpink;
+}
+.navbar 
+{
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.img
+{
+    width:73px;
+    height:35px;
+    padding-left:40px;
+}
+.navbar-nav
+{
+    padding-left: 35px;
+    
+   
+ 
+}
+
+
+
+/* searchbar */
+hr{
+    color:hotpink;
+   padding-bottom:15px;
+}
+#search{
+    height: 24px;
+    width:290px;
+    border-radius: 5px;
+    background-color: rgba(225, 239, 231, 0.813);
+    font-size: 10px;
+    padding-left: 33px;
+    border-left: 1px solid grey;
+    border:0;
+    text-decoration: none;
+}
+#search:focus{
+    outline: none;
+}
+.searchlogo{
+   width:12px;
+   margin-left:5px;
+}
+#two
+{
+    background-color:white;
+    display: inline-block;
+    height: 288px;
+    position: absolute;
+    top: 60px;
+    width: 340px;
+    height: auto; 
+    max-height: 340px;
+    margin-left: -39px;
+    z-index: 1;
+    overflow:hidden;
+    border: black;
+    border-radius: 0px 0px 4px 4px;
+    overflow:auto;
+}
+/* navbar end */
+
+
+
+
+
+
+/* inside the profile section in navbar */
+
+#main_div{
+        display: inline-block;
+        position: relative;
+        height:70%;
+}
+#main_div:hover{
+    border-bottom: 3px solid hotpink;
+}
+#button{
+    background-color:white;
+    transition: .3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(40,44,63);
+    font-size: 10px;
+    font-weight: 500;
+}
+
+#button:hover{
+    color:hotpink;
+}
+#a{
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    z-index: 1;
+    visibility: hidden;
+    position: absolute;
+     width: 230px;
+    transition: .5s;
+    opacity: 0;
+    border-radius:0px 0px 12px 12px ;
+    margin-top: 36px;
+    margin-left: -150px;
+    text-align: left;
+    margin-top: 10px;
+}
+#ls{
+    margin-left:15px;
+    background-color: white;
+    color:rgb(105, 255, 135);
+    font-size:15px;
+    height:20px;
+    border:1px solid rgb(233, 233, 233);
+    text-align: center;
+    padding-bottom:25px;
+}
+#ls:hover{
+    border:1px solid hotpink;
+    transition:.5s;
+}
+
+#logincss{
+    text-decoration: none;
+    color:hotpink;
+    font-size:10px;
+    padding-top:30px;
+   
+}
+
+hr
+{
+    margin-right:15px;
+    font-weight: 500;
+}
+#lp{
+    margin-left:15px;
+    font-size: 10px;
+    margin-top:-18px;
+    color:hotpink;
+}
+#lh5{
+  text-align: left;
+  padding-left:15px;
+  font-size: 12px;
+  /* margin-top:15px; */
+  color:gray;
+}
+#lh5:hover{
+    color:hotpink;
+}
+#insider_span{
+    background-color: rgb(203, 142, 172);
+    color:white;
+    border:0;
+    height: 20px;
+}
+#profile_tag>a{
+    font-size: 10px;
+    color:rgba(40, 44, 63, 0.779);
+     margin-left:15px;
+     text-decoration: none;
+     text-transform: uppercase;
+   padding-bottom:20px;
+ }
+/* wishlist and bag  */
+
+
+ .profilelogo
+{
+    width:50px;
+    height:35px;
+    padding-left:15px;
+    padding-top:10px;
+}
+ 
+ .bag
+ {
+    margin-top:100px;
+ }
+ .cartlogo
+{
+    width:28px;
+    height:28px;
+    margin-left:15px;
+    margin-top:15px;
+    margin-right:25px;
+   
+}
+.wishlistlogo
+{
+    width:25px;
+    height:14px;
+    margin-top:15px;
+    padding-left:10px;
+    text-decoration: none;
+}
+
+
+#main_div:hover div{
+    visibility: visible;
+    opacity:1;
+}
+#d1{
+    margin: 10px;
+}
+.profilename
+{
+    font-size:12px;
+    color:black;
+    color:rgba(40, 44, 63, 0.702);
+    margin-top:-80px;
+}
+.afterprofile
+{
+    margin-top:-15px;
+}
+ul>li{
+    list-style-type: none;
+    color:rgb(223, 151, 187);
+    
+}
+ul>li>a{
+    
+    text-decoration: none;
+    color:rgba(40, 44, 63, 0.779);
+    font-size: 10px;
+    
+}
+ul>li>a:hover{
+ color: hotpink;
+ transition: .2s;
+}
+#b{
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* slider */
+

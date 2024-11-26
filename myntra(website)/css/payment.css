@@ -1,0 +1,87 @@
+* {
+    /* box-sizing: border-box; */
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+  
+    /* background-color: #fceefb; */
+  }
+  body{
+    background-color:rgba(246, 220, 226, 0.617);
+  }
+  .container {
+    width: 35%;
+    margin: auto;
+    padding: 40px 30px;
+    margin-top:30x;
+    padding-left: -20px;
+    background-color: #fceefb;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  button {
+    padding: 8px 6px;
+    background-color: #ff3f6c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    width: 30%;
+    margin: auto;
+    margin-left: 35%;
+  }
+  
+  button:hover {
+    background-color: rgb(95, 227, 95);
+  }
+  #card {
+    display: flex;
+    width: 300px;
+    background-color: #fceefb;
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  .card {
+    margin-bottom: -5px;
+  }
+  #logo {
+    width: 80px;
+    background: #fceefb;
+  }
+ 
+  .securetext {
+    float: right;
+    letter-spacing: 1px;
+    color: #535766;
+    padding: 10px;
+    margin: 0 20px 0 0;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .class {
+    height: 30px;
+    border: none;
+  }
+  
+  
+  
+  
